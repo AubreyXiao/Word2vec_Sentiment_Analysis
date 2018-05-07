@@ -121,7 +121,7 @@ def process_files(directory, vocab, is_trian):
        path = directory + '/' + filename
        text = load_file(path)
        convert_text_to_tokens(text)
-       add_doc_to_vocab(path, vocab)
+       #add_doc_to_vocab(path, vocab)
 
 #2:load the file and return the text
 def load_file(filename):
@@ -155,3 +155,5 @@ def shrink_vocab(vocab, k):
 
 #-------------------------main---------------------------------------------------
 
+
+train_data = load_directory('/Users/xiaoyiwen/Desktop/datasets/train/pos1')
