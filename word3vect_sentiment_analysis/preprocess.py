@@ -10,12 +10,12 @@ import logging
 import numpy as np
 
 
-sent_detector = nltk.data.load('tokenizers/punkt/english.pickle')
+punkt_detector = nltk.data.load('tokenizers/punkt/english.pickle')
 
 #clean the text
-def clean_text(raw_review, remove_stopwords=False):
+def clean_text(review, remove_stopwords=False):
     #1：remove the URL
-    review = BeautifulSoup(raw_review,"html5lib").get_text()
+    review = BeautifulSoup(review,"html5lib").get_text()
     #2：remove the non alphbate
     letters_only = re.sub("[^a-zA-Z]", " ",review)
     #3：convert to lowercase and split
@@ -33,11 +33,11 @@ def clean_text(raw_review, remove_stopwords=False):
 
 
 #transfer a review to sentences ( word2vec will take lists of sentense as input)
-def reviews_to_sentences(review, sent_detector,remove_stopwords=False):
+def reviews_to_sentences(review, punkt_detector,remove_stopwords=False):
 
     #split the reviews into sentences
 
-    sentences = sent_detector.tokenize(review.strip())
+    sentences = punkt_detector.tokenize(review.strip())
 
     #loop over each sentence and clean it -> append to a list
     sentences_lists = []
@@ -64,11 +64,11 @@ unlabeled_data = pd.read_csv("Datasets/unlabeledTrainData.tsv",header=0, delimit
 sentences = []
 
 for review in unlabeled_data["review"]:
-    sentences += reviews_to_sentences(review,sent_detector)
+    sentences += reviews_to_sentences(review,punkt_detector)
 
 
 for review in train_data["review"] :
-    sentences += reviews_to_sentences(review,sent_detector)
+    sentences += reviews_to_sentences(review,punkt_detector)
 
 
 print(len(sentences))

@@ -151,15 +151,19 @@ clean_test_lists = get_clean_review_to_words_lists(test_data["review"])
 test_data_vector = get_total_vector(clean_test_lists,model,num_features)
 
 
-#create the RandomForest classifier
-#100 trees
-forest = RandomForestClassifier(n_estimators=100)
+
+#build up a neural network classifier
+
 #
-forest = forest.fit(train_data_vector,train_data["sentiment"])
-
-#test the result
-results = forest.predict(test_data_vector)
-
-#write the output to the test results
-output = pd.DataFrame(data={"id":test_data["id"],"sentiment":results})
-output.to_csv("model_prediction.csv",index=False,quoting=3)
+# #create the RandomForest classifier
+# #100 trees
+# forest = RandomForestClassifier(n_estimators=100)
+# #
+# forest = forest.fit(train_data_vector,train_data["sentiment"])
+#
+# #test the result
+# results = forest.predict(test_data_vector)
+#
+# #write the output to the test results
+# output = pd.DataFrame(data={"id":test_data["id"],"sentiment":results})
+# output.to_csv("model_prediction.csv",index=False,quoting=3)

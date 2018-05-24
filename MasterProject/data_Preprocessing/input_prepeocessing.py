@@ -7,6 +7,8 @@ import nltk.data
 import logging
 
 
+#------------------------------------------------------------
+
 spliter = nltk.data.load('tokenizers/punkt/english.pickle')
 
 #clean the sentence
@@ -17,6 +19,7 @@ def clean_text(sentence,sub_stopwords=False):
     sentence = re.sub("[^a-zA-Z]", " ", sentence)
     #lowercase
     words = sentence.lower().split()
+
     if(sub_stopwords):
         stops = set(stopwords.words("English"))
         words = [w for w in words if not w in stops]
@@ -29,8 +32,6 @@ def transfer_reviews_to_sentences(review,spliter,sub_stopwords=False):
     sentences_lists = []
 
     sentences = spliter.tokenize(review.strip())
-
-
     for s in sentences:
         if(len(s)>0):
             cleaned = clean_text(s,sub_stopwords=False)
@@ -38,9 +39,6 @@ def transfer_reviews_to_sentences(review,spliter,sub_stopwords=False):
 
 
     return sentences_lists
-
-
-
 
 #------------------------IO------------------------------------
 
@@ -78,8 +76,6 @@ def save_to_file(token,filename):
     file = open(filename,'w')
     file.write(data)
     file.close()
-
-
 
 #-------------------------main---------------------------------------------------
 

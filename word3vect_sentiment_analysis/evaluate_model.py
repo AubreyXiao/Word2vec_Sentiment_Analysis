@@ -7,6 +7,10 @@ model = Word2Vec.load(modelname)
 print(model.wv.most_similar(positive=['woman','king'],negative=['man']))
 print(model.wv.most_similar_cosmul(positive=['woman','king'],negative=['man']))
 
+
+print(model.wv.most_similar(positive=['bigger','small'],negative=['big']))
+print(model.wv.most_similar_cosmul(positive=['bigger','small'],negative=['big']))
+
 print(model.wv.most_similar("awful"))
 print(model.wv.most_similar("disgusting"))
 print(model.doesnt_match("man woman child kitchen".split()))
@@ -21,6 +25,8 @@ model = Word2Vec.load(modelname)
 print(model.wv.most_similar(positive=['woman','king'],negative=['man']))
 print(model.wv.most_similar_cosmul(positive=['woman','king'],negative=['man']))
 
+print(model.wv.most_similar(positive=['bigger','small'],negative=['big']))
+print(model.wv.most_similar_cosmul(positive=['bigger','small'],negative=['big']))
 print(model.wv.most_similar("awful"))
 print(model.wv.most_similar("disgusting"))
 
@@ -32,6 +38,9 @@ model = Word2Vec.load(modelname)
 
 print(model.wv.most_similar(positive=['woman','king'],negative=['man']))
 print(model.wv.most_similar_cosmul(positive=['woman','king'],negative=['man']))
+
+print(model.wv.most_similar(positive=['bigger','small'],negative=['big']))
+print(model.wv.most_similar_cosmul(positive=['bigger','small'],negative=['big']))
 
 print(model.wv.most_similar("awful"))
 print(model.wv.most_similar("disgusting"))
