@@ -172,7 +172,6 @@ with open("tfidf_dict.csv",'wb') as csv_file:
         writer.writerow([key, value])
 
 
-
 #
 # #-----------load the model-----------------------------------------------------
 #

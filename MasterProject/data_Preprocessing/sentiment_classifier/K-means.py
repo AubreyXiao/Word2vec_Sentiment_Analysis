@@ -1,13 +1,11 @@
 import time
 from sklearn.cluster import KMeans
-from gensim.models import Word2Vec
 import numpy as np
-from bs4 import BeautifulSoup
-import re
-from nltk.corpus import stopwords
-from gensim.models import Word2Vec
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from MasterProject.data_Preprocessing.Datasets import get_data
+from MasterProject.data_Preprocessing.model import get_model
+
 
 
 #create bag of centroids
@@ -23,35 +21,21 @@ def create_centroids(words, word_centroid_map):
     return centroids_matrix
 
 
-#get all the review
-def get_clean_review_lists(review_datasets):
-    clean_review_datasets = []
-    for review in review_datasets:
-        clean_review_datasets.append(clean_text(review))
-    return clean_review_datasets
-
-
-#preprocess the text and split each review to a list of tokens
-def clean_text(review):
-    #1: remove the tags
-    review = BeautifulSoup(review).get_text()
-    #2.remove the non alpha
-    text = re.sub("[^a-zA-Z]", " ",review)
-    #3.remove split the tokens
-    lowercase =  text.lower().split()
-    #remove the stopwords
-    stops = set(stopwords.words("English"))
-    words = [w for w in lowercase if not w in stops]
-
-    return words
-
 
 #----load the model-------
-modelname = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/300features_40minwords_10window"
-model = Word2Vec.load(modelname)
+model = get_model.model()
+
+modelname = "300features_40minwords_10window"
+
+model = model.get_model(modelname)
+
+
+
 
 #-------------start time ------
 start = time.time()
+
+
 
 #-----set 5words per cluster----
 wordvectors = model.wv.syn0
@@ -87,15 +71,17 @@ for cluster in range(0,10):
 #_---------------------get reviews------------------
 
 #---load the datasetets-----
-dir = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/"
+data = get_data.Datasets()
 
-train_data = pd.read_csv(dir +"labeledTrainData.tsv",header = 0, delimiter='\t', quoting=3)
-unlabeled_data = pd.read_csv(dir + "unlabeledTrainData.tsv",header = 0, delimiter='\t',quoting=3)
-test_data = pd.read_csv(dir + "testData.tsv",header=0, delimiter='\t',quoting=3)
+train_data = data.get_train_data()
+test_data = data.get_test_data()
+unlabeled_data = data.get_unlabeled_data()
 
 #-------get clean datasets--------------------------
-cleaned_train_datasets = get_clean_review_lists(train_data["review"])
-cleaned_test_datastes = get_clean_review_lists(test_data["review"])
+
+
+cleaned_train_datasets = data.get_clean_review_lists(train_data["review"])
+cleaned_test_datastes = data.get_clean_review_lists(test_data["review"])
 
 
 #-------create train bags of centroids----------------
@@ -128,7 +114,7 @@ result = forest.predict(test_matrix)
 
 #write the output
 output = pd.DataFrame(data={"id": test_data["id"], "sentiment":result})
-output.to_csv("k-means_clustering.csv",index=False,quoting=3)
+output.to_csv("k-means_sentiment.csv",index=False,quoting=3)
 
 
 

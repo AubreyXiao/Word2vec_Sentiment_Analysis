@@ -226,19 +226,19 @@ print("Test set has total {0} entries with {1:.2f}% negative, {2:.2f}% positive"
 
 
 # ##--------------ingegrates all the sentences--------------------------------------
-# all_labeled_sentences = []
-# all_unlabeled_sentences = []
-# all_sentences = []
+all_labeled_sentences = []
+all_unlabeled_sentences = []
+all_sentences = []
 #
-# for review in train_data["review"]:
-#     all_labeled_sentences += transfer_review_to_sentences(review, sent_detector)
+for review in train_data["review"]:
+     all_labeled_sentences += transfer_review_to_sentences(review, sent_detector)
+
+print(len(all_labeled_sentences))
 #
-# print(len(all_labeled_sentences))
-#
-# for unlabel_review in unlabeled_data["review"]:
-#     all_unlabeled_sentences += transfer_review_to_sentences(unlabel_review, sent_detector)
-#
-# all_sentences = all_unlabeled_sentences + all_labeled_sentences
+for unlabel_review in unlabeled_data["review"]:
+     all_unlabeled_sentences += transfer_review_to_sentences(unlabel_review, sent_detector)
+
+all_sentences = all_unlabeled_sentences + all_labeled_sentences
 
 
 #---------------------------build-up--tf-idf-matrix--------------------------
@@ -297,7 +297,7 @@ model = Sequential()
 model.add(Dense(128, activation='relu', input_dim=300))
 model.add(Dense(1,activation='sigmoid'))
 model.compile(optimizer='Adam', loss='binary_crossentropy', metrics=['accuracy'])
-model.fit(trained_vector,y_train, validation_split=0.02,shuffle=True, epochs=20,batch_size=20,verbose=2)
+model.fit(trained_vector,y_train, validation_split=0.02,shuffle=True, epochs=20,batch_size=128,verbose=2)
 
 
 
