@@ -1,10 +1,10 @@
 
 word3vect_sentiment_analysis
-MasterProject/traning_models
-MasterProject/review_vocabs
-MasterProject/data_Preprocessing/LDA_top_modeling
-MasterProject/data_Preprocessing/LSTM_classifer
-MasterProject/data_Preprocessing/model
+.MasterProject/traning_models
+.MasterProject/review_vocabs
+.MasterProject/data_Preprocessing/LDA_top_modeling
+.MasterProject/data_Preprocessing/LSTM_classifer
+.MasterProject/data_Preprocessing/model
 MasterProject/data_Preprocessing/test_Glove
 MasterProject/data_Preprocessing/2D_chart.py
 MasterProject/data_Preprocessing/evaluate_model.py
