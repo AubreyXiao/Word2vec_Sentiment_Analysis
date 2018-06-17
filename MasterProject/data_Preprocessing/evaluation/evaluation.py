@@ -1,8 +1,6 @@
 from gensim.models import Word2Vec
 from gensim.models import KeyedVectors
 
-
-
 #load the model
 def word2vec_model_accuracy(model,questions):
    # model = Word2Vec.load(modelname)
@@ -37,8 +35,18 @@ def evaluate_model(model,questions_words,questions_phrases):
     print("Evaluate the words")
     word2vec_model_accuracy(model,questions_words)
 
-  #  print("Evaluate the phrases")
-  #  word2vec_model_accuracy(model,questions_phrases)
+
+#loop the model and evaluate it
+def load_models_evaluation(model_lists,questions_words,questions_phrases):
+    dir = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model/"
+    for modelname in model_lists:
+        print("Model:" + modelname+"\n")
+        modelname1 = dir + modelname
+        model = Word2Vec.load(modelname1)
+        evaluate_model(model,questions_words,questions_phrases)
+        print("-----------------------------------------------\n")
+
+
 
 
 
@@ -51,45 +59,16 @@ print("phrases!")
 read_evaluation_file(questions_phrases)
 
 
-
 #test the google model
-#word2vec_model_accuracy(google,questions)
 google = KeyedVectors.load_word2vec_format('/Users/xiaoyiwen/Desktop/GoogleNews-vectors-negative300.bin', binary = True)
 evaluate_model(google,questions_words,questions_phrases)
 
 
+# define the model
+model_lists = ["200features_30minwords_10window","100features_30minwords_10window","300features_40minwords_10window","400features_30minwords_10window","300features_30minwords_20window","300features_30minwords_10window","300features_30minwords_5window"]
 
-#evaluate 300features_40minwords_10window
-model_300_40_10 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/300features_40minwords_10window")
-model1_300_40_10 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/word3vect_sentiment_analysis/300features_40minwords_10window")
-
-model_300_40_20 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/300features_40minwords_20window")
-model1_300_40_20 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/word3vect_sentiment_analysis/300features_40minwords_20window")
-
-
-
-#model_400_30_10 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/400features_30minwords_10window")
-
-
-
-model_400_40_10 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/400features_40minwords_10window")
-model1_400_40_10 = Word2Vec.load("/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/word3vect_sentiment_analysis/400features_40minwords_10window")
-
-#evaluate
-evaluate_model(model_300_40_10,questions_words,questions_phrases)
-evaluate_model(model1_300_40_10,questions_words,questions_phrases)
-
-
-evaluate_model(model_300_40_20,questions_words,questions_phrases)
-evaluate_model(model1_300_40_20,questions_words,questions_phrases)
-
-
-evaluate_model(model_400_40_10,questions_words,questions_phrases)
-evaluate_model(model1_400_40_10,questions_words,questions_phrases)
-
-
-
-
+#loop over the word2vec model
+load_models_evaluation(model_lists,questions_words,questions_phrases)
 
 
 

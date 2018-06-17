@@ -14,15 +14,21 @@ train_data = data.get_train_data()
 test_data = data.get_test_data()
 unlabeled_data = data.get_unlabeled_data()
 
-
+#define the model
+#model1 ="/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_5window"
+#model2 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_10window"
+#model3 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_20window"
+#model4 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/400features_30minwords_10window"
+#model5 ="/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_40minwords_10window"
+#model6 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/100features_30minwords_10window"
+model7 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/200features_30minwords_10window"
 #-----------load the model-----------------------------------------------------
 model = get_model.model()
-modelname = "300features_40minwords_10window"
-word2vec_model = model.get_model(modelname)
+word2vec_model = model.get_model(model7)
 print(model)
 
-#
-dimension = 300
+
+dimension = 200
 
 
 #--------------------------getcleandatastes-------------------------------------
@@ -32,14 +38,11 @@ seed = 2000
 x_train = train_data["review"]
 y_train = train_data["sentiment"]
 
-x_test = test_data["review"]
 
 train_cleaned_reviews = data.get_clean_review_lists(x_train)
-test_cleaned_reviews = data.get_clean_review_lists(x_test)
 
 #dimensinon=300
 x_train = data.return_total_vector(train_cleaned_reviews, word2vec_model, dimension)
-x_test = data.return_total_vector(test_cleaned_reviews,word2vec_model,dimension)
 
 
 #print(ytrain = np.array(train_data["sentiment"]))
@@ -58,7 +61,7 @@ for train, validation in kfold.split(x_train,y_train):
     #interate test model
     #define model
     model = Sequential()
-    model.add(Dense(128, activation='relu', input_dim=300))
+    model.add(Dense(128, activation='relu', input_dim=200))
     model.add(Dense(1, activation='sigmoid'))
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     model.fit(x_train[train], y_train[train], epochs=10, batch_size=20, verbose=0)

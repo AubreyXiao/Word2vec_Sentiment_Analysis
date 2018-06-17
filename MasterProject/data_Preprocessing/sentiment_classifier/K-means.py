@@ -20,15 +20,20 @@ def create_centroids(words, word_centroid_map):
             centroids_matrix[index] += 1
     return centroids_matrix
 
+#define the model
 
+model1 ="/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_5window"
+model2 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_10window"
+model3 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_30minwords_20window"
+model4 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/400features_30minwords_10window"
+model5 ="/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/300features_40minwords_10window"
+model6 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/100features_30minwords_10window"
+model7 = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/200features_30minwords_10window"
 
 #----load the model-------
 model = get_model.model()
 
-modelname = "300features_40minwords_10window"
-
-model = model.get_model(modelname)
-
+model = model.get_model(model3)
 
 
 

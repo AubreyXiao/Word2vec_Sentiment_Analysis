@@ -6,10 +6,17 @@ import nltk.data
 import numpy as np
 from wordcloud import WordCloud
 from matplotlib import pyplot as plt
+from nltk.stem import SnowballStemmer
+from nltk.stem import WordNetLemmatizer
 import sys
+import os
+from nltk.tokenize import WordPunctTokenizer
+from collections import defaultdict
+import nltk
+import pickle
 
 class Datasets():
-
+   lemma = WordNetLemmatizer()
 
    def get_sent_detector(self):
 
@@ -62,6 +69,41 @@ class Datasets():
 
        return words
 
+   def clean_text_without_filter_stopwords(self,review):
+       # 1: remove the tags
+       review = BeautifulSoup(review).get_text()
+       # 2.remove the non alpha
+       text = re.sub("[^a-zA-Z]", " ", review)
+       # 3.remove split the tokens
+       words = text.lower().split()
+
+       return words
+
+   def clean_text_to_text(self,review):
+       # 1: remove the tags
+       review = BeautifulSoup(review).get_text()
+       #remove the the',",\
+       review = re.sub(r"\\", "", review)
+       review = re.sub(r"\'", "", review)
+       review = re.sub(r"\"", "", review)
+       #return the lower case
+       text = review.lower()
+
+       return text
+
+   def LDA_preprocessing(self, review,do_stem = False):
+       # 1: remove the tags
+       review = BeautifulSoup(review).get_text()
+       # 2.remove the non alpha
+       text = re.sub("[^a-zA-Z]", " ", review)
+       # 3.remove split the tokens
+       lowercase = text.lower().split()
+       # 4:remove the stopwords
+       stops = set(stopwords.words("English"))
+       words = [w for w in lowercase if not w in stops]
+       if(do_stem ==True):
+           words = [Datasets.lemma.lemmatize(word) for word in words]
+       return words
 
    #7：
    #split each review into sentences and clean the sentences -> to a list
@@ -73,7 +115,7 @@ class Datasets():
         sentencs_list = []
         for sentence in sentences:
             if(len(sentence)>0):
-             words = Datasets.clean_text(sentence)
+             words = Datasets.clean_text_without_filter_stopwords(sentence)
              sentencs_list.append(words)
 
         return sentencs_list
@@ -87,6 +129,43 @@ class Datasets():
            all_sentences += Datasets.transfer_review_to_sentences(review,sent_detector)
 
        return all_sentences
+
+
+   # #11: build up a vocab
+   # def build_up_vocab(self,dataset,vocab_path):
+   #     #
+   #     if(os.path.exists(vocab_path)):
+   #         vocab = open(vocab_path,'rb')
+   #         vocab = pickle.load(vocab)
+   #         print("vocab successfully loaded!")
+   #
+   #     else:
+   #         word_frequent = defaultdict(int)
+   #
+   #         for review in dataset:
+   #             words = Datasets.clean_text_without_filter_stopwords(review)
+   #             for word in words:
+   #                 word_frequent[word] +=1
+   #         print("loaded finished")
+   #
+   #         #create vocab
+   #         vocab = {}
+   #         i = 1
+   #         vocab['UNKNOW_TOKEN'] = 0
+   #         for word, freq in word_frequent.items():
+   #             if freq>5:
+   #                 vocab[word] =i
+   #                 i +=1
+   #
+   #         #save the vocab
+   #         with open(vocab_path,'wb') as file:
+   #             pickle.dump(vocab,file)
+   #             print(len(vocab))
+   #             print("vocab save finished")
+   #
+   #     return vocab
+
+
 
    #9：
    #get averaged vector review
@@ -140,6 +219,7 @@ class Datasets():
        plt.imshow(wordcloud, interpolation="bilinear")
        plt.axis("off")
        plt.show()
+
 
 
 

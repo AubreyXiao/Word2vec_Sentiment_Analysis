@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86888abe-a579-4c46-abe6-5a30fe8de47c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-phrases.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/labeledTrainData.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/model_prediction.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/sampleSubmission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/testData.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/unlabeledTrainData.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/extract_toppic_from_IMDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/preprocessing.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word3vect_sentiment_analysis/average_vectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/word3vect_sentiment_analysis/average_vectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word3vect_sentiment_analysis/evaluate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/word3vect_sentiment_analysis/evaluate_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word3vect_sentiment_analysis/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/word3vect_sentiment_analysis/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/300features_40minwords_10window" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_30minwords_10window" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/300features_40minwords_20window" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/400features_30minwords_10window" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/400features_40minwords_10window" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300dim_30min_10windows.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_40minwords_10window" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,61 +32,116 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1525603887102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word3vect_sentiment_analysis" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1528900688696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$demo_pyx.coverage" NAME="demo.pyx Coverage Results" MODIFIED="1525448481368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word3vect_sentiment_analysis" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$sentiment_classifier.coverage" NAME="sentiment_classifier Coverage Results" MODIFIED="1527023946576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1525774718276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1526984536246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$K_means.coverage" NAME="K-means Coverage Results" MODIFIED="1529089775715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1526737651960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/test_tf_idf" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$K_fold_for_evaluation.coverage" NAME="K_fold_for_evaluation Coverage Results" MODIFIED="1527076939985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$preprocessing_pyx.coverage" NAME="preprocessing.pyx Coverage Results" MODIFIED="1525604492185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$integrate_files.coverage" NAME="integrate_files Coverage Results" MODIFIED="1525600331123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$2D_chart.coverage" NAME="2D_chart Coverage Results" MODIFIED="1525866239832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$tf_idf_ANN.coverage" NAME="tf_idf_ANN Coverage Results" MODIFIED="1527087830493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$test.coverage" NAME="test Coverage Results" MODIFIED="1529084271372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$CNN_predic.coverage" NAME="CNN_predic Coverage Results" MODIFIED="1525531966028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word3vect_sentiment_analysis" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$get_model.coverage" NAME="get_model Coverage Results" MODIFIED="1529081121072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/model" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1527764487929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$input_prepeocessing.coverage" NAME="input_prepeocessing Coverage Results" MODIFIED="1525599742211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$txts_to_tsv.coverage" NAME="txts_to_tsv Coverage Results" MODIFIED="1525629972962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1525787164076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$lstm_classifier.coverage" NAME="lstm_classifier Coverage Results" MODIFIED="1528721838503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$Attention_Layer.coverage" NAME="Attention_Layer Coverage Results" MODIFIED="1528971870568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1529090134892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1525603887102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word3vect_sentiment_analysis" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1525774718276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$data_access.coverage" NAME="data_access Coverage Results" MODIFIED="1528722899761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$K_fold_for_evaluation.coverage" NAME="K_fold_for_evaluation Coverage Results" MODIFIED="1529084493410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$preprocessing_pyx.coverage" NAME="preprocessing.pyx Coverage Results" MODIFIED="1529077810502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/model" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$2D_chart.coverage" NAME="2D_chart Coverage Results" MODIFIED="1525866239832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$extract_toppic_from_IMDB.coverage" NAME="extract_toppic_from_IMDB Coverage Results" MODIFIED="1527845269117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$kkkk.coverage" NAME="kkkk Coverage Results" MODIFIED="1529080886145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Sentiment_Analysis_word2vec" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sentiment_classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py">
+      <file leaf-file-name="get_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="221" column="15" selection-end-line="335" />
+            <state relative-caret-position="150">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_prepeocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
-                <marker date="1527073615000" expanded="true" signature="3745:4358" ph="..." />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_idf_ANN.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="15">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2D_chart.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-159">
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf_dict.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tfidf_dict.csv">
+      <file leaf-file-name="evaluate_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-991" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.pyx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="training_Data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/traning_models/training_Data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-            </state>
-          </provider>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/setup.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="txts_to_tsv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -104,11 +161,11 @@
       <find>raw_review</find>
       <find>movie</find>
       <find>0_</find>
-      <find>the great majority</find>
-      <find>I admit</find>
+      <find />
+      <find />
       <find>1_0</find>
-      <find>This is a very</find>
-      <find>definitely NOT a comedy</find>
+      <find />
+      <find />
       <find>0_0</find>
       <find>:</find>
       <find>kay</find>
@@ -116,6 +173,7 @@
       <find>this</find>
       <find>stuff</find>
       <find>print</find>
+      <find>val_acc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,15 +196,27 @@
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/integrate_files.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation.py" />
-        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py" />
         <option value="$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" />
         <option value="$PROJECT_DIR$/word3vect_sentiment_analysis/average_vectors.py" />
-        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py" />
-        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/extract_toppic_from_IMDB.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/data_access.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/Attention_Layer.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/preprocessing.pyx" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/kkkk.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -160,9 +230,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="98" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,47 +262,12 @@
             </path>
             <path>
               <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="sentiment_classifier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="review_vocabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="test_tf_idf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="traning_models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="word3vect_sentiment_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -249,13 +285,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model" />
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/model" />
       <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset" />
       <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/initial_verison_preprocessinbg" />
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model" />
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model_txt" />
       <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
-      <recent name="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_idf_ANN">
+  <component name="RunManager" selected="Python.classifier">
     <configuration name="K-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sentiment_Analysis_word2vec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,7 +349,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sentiment_Analysis_word2vec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,18 +357,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/test_tf_idf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sentiment_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sentiment_Analysis_word2vec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,18 +376,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tf_idf_ANN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sentiment_Analysis_word2vec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -355,31 +395,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.sentiment_classifier" />
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.K-means" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.K_fold_for_evaluation" />
-      <item itemvalue="Python.tf_idf_ANN" />
+      <item itemvalue="Python.get_model" />
+      <item itemvalue="Python.K-means" />
+      <item itemvalue="Python.classifier" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tf_idf_ANN" />
-        <item itemvalue="Python.K_fold_for_evaluation" />
-        <item itemvalue="Python.sentiment_classifier" />
+        <item itemvalue="Python.classifier" />
         <item itemvalue="Python.K-means" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.K_fold_for_evaluation" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.get_model" />
       </list>
     </recent_temporary>
   </component>
@@ -397,54 +437,54 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="788" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18611111" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3560058" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.27462122" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.46401516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435028" weight="0.3025751" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39835164" />
+      <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.3025751" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
+      <window_info id="Favorites" order="2" sideWeight="0.50564975" side_tool="true" visible="true" weight="0.3025751" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32965517" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30829757" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.06311361" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.047222223" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32965517" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,11 +497,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py</url>
           <line>277</line>
           <option name="timeStamp" value="3" />
@@ -471,329 +506,361 @@
           <line>178</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/training.txt" />
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/trainin_data.txt" />
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/setup.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/review_vocabs/vocab_min_5.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
+        <state relative-caret-position="-786464" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-1233173473/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/IMDB_vocab_5min" />
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_40minwords_10window">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/300features_40minwords_10window.txt">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/300dim_30min_10windows.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="78">
-          <caret line="1" column="1847" selection-start-line="1" selection-start-column="1847" selection-end-line="1" selection-end-column="1847" />
-        </state>
+        <state relative-caret-position="-2224" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/pos.tsv" />
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/labeledTrainData.tsv" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="708" selection-start-line="708" selection-end-line="708" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/integrate_files.py" />
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/Datasets/testData.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/Datasets/unlabeledTrainData.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="6645">
-          <caret line="247" column="8" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/clean_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/evaluate_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="953" selection-start-line="953" selection-end-line="953" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16155">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/demo.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/review_vocabs/vocab_min_10.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/labeled_positive.tsv">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/cross_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="9" column="1120" selection-start-line="9" selection-start-column="1120" selection-end-line="9" selection-end-column="1120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/highest_tfidf_rank.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-phrases.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="12029" column="20" selection-start-line="12029" selection-start-column="20" selection-end-line="12029" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pylint/test/input/w0401_cycle.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/unlabeledTrainData.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="120">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/unlabeled.tsv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/lowest_tfidf_rank.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="2524" selection-start-line="2524" selection-end-line="2524" />
+        <state relative-caret-position="15">
+          <caret line="2054" selection-start-line="2054" selection-end-line="2054" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="85">
           <caret line="180" selection-start-line="180" selection-end-line="180" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/model_prediction.csv">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="95">
+          <caret line="1629" selection-start-line="1629" selection-end-line="1629" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/model_prediction.csv">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="1066" selection-start-line="1066" selection-end-line="1066" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/labeledTrainData.tsv">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="618" selection-start-line="618" selection-end-line="618" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/kaggle_data/testData.tsv">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="13" selection-start-column="4" selection-end-column="13" />
+        <state relative-caret-position="82">
+          <caret line="7" column="273" lean-forward="true" selection-start-line="7" selection-start-column="273" selection-end-line="7" selection-end-column="273" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/sampleSubmission.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/average_vectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/kaggle_dataset/testData.tsv">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/kaggle_data/labeledTrainData.tsv">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-644">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="1" column="479" lean-forward="true" selection-start-line="1" selection-start-column="479" selection-end-line="1" selection-end-column="479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300dim_30min_10windows.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="126568">
+          <caret line="339" column="392" lean-forward="true" selection-start-line="339" selection-start-column="392" selection-end-line="339" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model_txt/300dim_30min_10windows.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="105">
+          <caret line="1" column="921" lean-forward="true" selection-start-line="1" selection-start-column="921" selection-end-line="1" selection-end-column="921" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model_txt/300dim_30min_5windows.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-148">
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model/300features_40minwords_10window">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/data_access.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/preprocessing.pyx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/traning_models/training_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tfidf_dic.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/kkkk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_clustering.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="268">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/labeled_negative.tsv">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="7894" column="692" selection-start-line="7894" selection-start-column="692" selection-end-line="7894" selection-end-column="692" />
+        <state relative-caret-position="-72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="32" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="32" />
+        <state relative-caret-position="215">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1764">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="-1512">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py">
+    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/evaluate_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="-308" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
+    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="-773" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word3vect_sentiment_analysis/average_vectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/Attention_Layer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-phrases.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="178">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="144" column="15" lean-forward="true" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
+        <state relative-caret-position="200">
+          <caret line="20" column="142" lean-forward="true" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/sentiment_classifier.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="221" column="15" selection-end-line="335" />
+        <state relative-caret-position="978">
+          <caret line="91" column="65" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="65" />
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <marker date="1527073615000" expanded="true" signature="3745:4358" ph="..." />
+            <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/traning_models/training_Data.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tfidf_dict.csv">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tf_idf_ANN.py">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="-81">
+          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
