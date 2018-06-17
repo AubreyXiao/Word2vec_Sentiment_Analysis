@@ -47,8 +47,8 @@
       <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -68,8 +68,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="210">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -164,8 +164,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="23" />
+    <option name="x" value="277" />
+    <option name="y" value="106" />
     <option name="width" value="1440" />
     <option name="height" value="788" />
   </component>
@@ -175,37 +175,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
+              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.4 (~/anaconda3/bin/python) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
+              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="LSTM_classifer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
+              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
+              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="sentiment_classifier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2vec_Sentiment_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2vec_Sentiment_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
+              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="test_Glove" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="w&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -365,55 +391,55 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1440" height="788" extended-state="0" />
+    <frame x="277" y="106" width="1440" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57597685" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.27462122" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57597685" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.46401516" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49213484" visible="true" weight="0.3025751" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49213484" visible="true" weight="0.30686694" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.4413893" />
       <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.3025751" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
       <window_info id="Favorites" order="2" sideWeight="0.5078652" side_tool="true" weight="0.3025751" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4413893" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32965517" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.047222223" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.047222223" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32965517" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,20 +481,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/review_vocabs/vocab_min_5.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-786464" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/IMDB_vocab_5min" />
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_40minwords_10window">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/300dim_30min_10windows.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-2224" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/300dim_30min_10windows.txt" />
     <entry file="file://$PROJECT_DIR$/MasterProject/review_vocabs/vocab_min_10.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -546,19 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model/300features_40minwords_10window">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/data_access.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/data_access.py" />
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/preprocessing.pyx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -569,13 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" />
     <entry file="file://$PROJECT_DIR$/MasterProject/traning_models/training_Data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
@@ -583,25 +611,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/tfidf_dic.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/kkkk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/kkkk.py" />
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_clustering.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -617,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,22 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/Attention_Layer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-phrases.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/questions-words.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="20" column="142" lean-forward="true" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,25 +697,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="91" column="65" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -748,16 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -770,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="210">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -780,18 +746,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="91" column="65" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
