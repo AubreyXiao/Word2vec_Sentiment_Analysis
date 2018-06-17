@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86888abe-a579-4c46-abe6-5a30fe8de47c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/LDA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LDA_top_modeling/extract_toppic_from_IMDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer/lstm_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/preprocessing.pyx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/300features_40minwords_10window" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_30minwords_10window" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/300features_40minwords_20window" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/400features_30minwords_10window" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/400features_40minwords_10window" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300dim_30min_10windows.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/input_prepeocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/word2vec_model/300features_40minwords_10window" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/k-means_sentiment.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MasterProject/test_tf_idf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +30,7 @@
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1525787164076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$lstm_classifier.coverage" NAME="lstm_classifier Coverage Results" MODIFIED="1528721838503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/LSTM_classifer" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$Attention_Layer.coverage" NAME="Attention_Layer Coverage Results" MODIFIED="1528971870568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
-    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1529090134892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
+    <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1529234589344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1525603887102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/word3vect_sentiment_analysis" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1525774718276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing" />
     <SUITE FILE_PATH="coverage/Sentiment_Analysis_word2vec$data_access.coverage" NAME="data_access Coverage Results" MODIFIED="1528722899761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier" />
@@ -63,85 +45,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py">
+      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input_prepeocessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="29">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2D_chart.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
+            <state relative-caret-position="178">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluate_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprocessing.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-991" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprocessing.pyx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/setup.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="txts_to_tsv.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/txts_to_tsv.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -161,11 +95,11 @@
       <find>raw_review</find>
       <find>movie</find>
       <find>0_</find>
-      <find />
-      <find />
+      <find>the great majority</find>
+      <find>I admit</find>
       <find>1_0</find>
-      <find />
-      <find />
+      <find>This is a very</find>
+      <find>definitely NOT a comedy</find>
       <find>0_0</find>
       <find>:</find>
       <find>kay</find>
@@ -174,6 +108,7 @@
       <find>stuff</find>
       <find>print</find>
       <find>val_acc</find>
+      <find>300</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,10 +147,10 @@
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/sentiment_classifier/K-means.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py" />
-        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/evaluation.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py" />
         <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/Datasets/get_data.py" />
+        <option value="$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -230,8 +165,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="24" />
+    <option name="x" value="9" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="788" />
   </component>
@@ -248,17 +183,6 @@
             <path>
               <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sentiment_Analysis_word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="MasterProject" type="462c0819:PsiDirectoryNode" />
-              <item name="data_Preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sentiment_Analysis_word2vec" type="b2602c69:ProjectViewProjectNode" />
@@ -437,29 +361,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="788" extended-state="0" />
+    <frame x="9" y="23" width="1440" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3560058" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08104197" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.27462122" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.46401516" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49435028" weight="0.3025751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49213484" visible="true" weight="0.3025751" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.4413893" />
       <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.3025751" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
-      <window_info id="Favorites" order="2" sideWeight="0.50564975" side_tool="true" visible="true" weight="0.3025751" />
+      <window_info id="Favorites" order="2" sideWeight="0.5078652" side_tool="true" weight="0.3025751" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.44246575" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32965517" />
     </layout>
     <layout-to-restore>
@@ -744,26 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluation/K_fold_for_evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -804,23 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/preprocessing.pyx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -842,26 +730,64 @@
         <state relative-caret-position="-991" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/input_prepeocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/evaluate_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="-11">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/model/get_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/HAN_Classifier/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MasterProject/data_Preprocessing/2D_chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="29">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>

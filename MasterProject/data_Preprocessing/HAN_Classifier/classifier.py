@@ -13,14 +13,14 @@ from keras.layers import Conv1D,MaxPooling1D,Embedding,Merge,Dropout, LSTM, GRU,
 from keras.models import Model
 
 #define word2vec model
-model = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model_txt/300dim_30min_20windows.txt"
+model = "/Users/xiaoyiwen/Desktop/Sentiment_Analysis_word2vec/MasterProject/data_Preprocessing/HAN_Classifier/word2vec_model_txt/400dim_30min_10windows.txt"
 
 #final parmeters
 WORDS_NUM = 100
 SEN_NUM = 15
 MAX_NB_WORDS = 20000
 VALIDATION_SET = 0.2
-DIM = 300
+DIM = 400
 
 # class AttLayer(Layer):
 #     def __init__(self, **kwargs):
