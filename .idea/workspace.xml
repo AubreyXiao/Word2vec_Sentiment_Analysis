@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86888abe-a579-4c46-abe6-5a30fe8de47c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -370,14 +371,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08104197" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57597685" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.27462122" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.46401516" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49213484" visible="true" weight="0.3025751" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.4413893" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4413893" />
       <window_info anchor="right" id="SciView" order="3" weight="0.20457797" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.3025751" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4495159" />
@@ -790,7 +791,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
